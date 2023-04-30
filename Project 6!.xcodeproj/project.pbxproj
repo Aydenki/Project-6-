@@ -14,6 +14,9 @@
 		2EEC2E0D29FDE90B00C57549 /* Project_6_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC2E0C29FDE90B00C57549 /* Project_6_Tests.swift */; };
 		2EEC2E1729FDE90B00C57549 /* Project_6_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC2E1629FDE90B00C57549 /* Project_6_UITests.swift */; };
 		2EEC2E1929FDE90B00C57549 /* Project_6_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC2E1829FDE90B00C57549 /* Project_6_UITestsLaunchTests.swift */; };
+		2EEC2E2729FDF89F00C57549 /* RedOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC2E2629FDF89F00C57549 /* RedOne.swift */; };
+		2EEC2E2929FDF8AC00C57549 /* BlueTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC2E2829FDF8AC00C57549 /* BlueTwo.swift */; };
+		2EEC2E2B29FDF8BC00C57549 /* GreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC2E2A29FDF8BC00C57549 /* GreenThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		2EEC2E1229FDE90B00C57549 /* Project 6!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 6!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEC2E1629FDE90B00C57549 /* Project_6_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_6_UITests.swift; sourceTree = "<group>"; };
 		2EEC2E1829FDE90B00C57549 /* Project_6_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_6_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2EEC2E2529FDF13300C57549 /* Project-6--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Project-6--Info.plist"; sourceTree = SOURCE_ROOT; };
+		2EEC2E2629FDF89F00C57549 /* RedOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedOne.swift; sourceTree = "<group>"; };
+		2EEC2E2829FDF8AC00C57549 /* BlueTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTwo.swift; sourceTree = "<group>"; };
+		2EEC2E2A29FDF8BC00C57549 /* GreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +101,12 @@
 		2EEC2DFA29FDE90B00C57549 /* Project 6! */ = {
 			isa = PBXGroup;
 			children = (
+				2EEC2E2529FDF13300C57549 /* Project-6--Info.plist */,
 				2EEC2DFB29FDE90B00C57549 /* Project_6_App.swift */,
 				2EEC2DFD29FDE90B00C57549 /* ContentView.swift */,
+				2EEC2E2629FDF89F00C57549 /* RedOne.swift */,
+				2EEC2E2829FDF8AC00C57549 /* BlueTwo.swift */,
+				2EEC2E2A29FDF8BC00C57549 /* GreenThree.swift */,
 				2EEC2DFF29FDE90B00C57549 /* Assets.xcassets */,
 				2EEC2E0129FDE90B00C57549 /* Preview Content */,
 			);
@@ -257,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EEC2E2729FDF89F00C57549 /* RedOne.swift in Sources */,
+				2EEC2E2B29FDF8BC00C57549 /* GreenThree.swift in Sources */,
 				2EEC2DFE29FDE90B00C57549 /* ContentView.swift in Sources */,
+				2EEC2E2929FDF8AC00C57549 /* BlueTwo.swift in Sources */,
 				2EEC2DFC29FDE90B00C57549 /* Project_6_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +436,9 @@
 				DEVELOPMENT_TEAM = 2U5PFCQ66M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project-6--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +468,9 @@
 				DEVELOPMENT_TEAM = 2U5PFCQ66M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project-6--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
